@@ -90,6 +90,7 @@ namespace ExchangeApp
             button1.TabIndex = 5;
             button1.Text = "Calculate";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label3
             // 
@@ -127,6 +128,8 @@ namespace ExchangeApp
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = SystemColors.Control;
             ClientSize = new Size(800, 450);
             Controls.Add(textBox3);
